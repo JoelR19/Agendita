@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendita</title>
+  </head>
+  <body>
+    <form id="formData">
+      <h1>Mi Agendita</h1>
+      <input id="date" type="text" placeholder="Ingrese la tarea" />
+      <button type="submit">Send</button>
+    </form>
+
+    <div id="logic">
+      <button id="">Completadas</button>
+      <button id="">Por hacer</button>
+      <button id="">Todas</button>
+      <button onclick="getData()">traer</button>
+    </div>
+
+    <ul id="tasks"></ul>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
